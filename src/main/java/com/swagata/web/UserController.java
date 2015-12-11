@@ -1,7 +1,8 @@
-package com.diasystem.web;
+package com.swagata.web;
 
-import com.diasystem.entity.User;
-import com.diasystem.service.UserService;
+import com.swagata.entity.User;
+import com.swagata.service.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

@@ -1,11 +1,13 @@
-package com.diasystem.persistence.hibernate.impl;
+package com.swagata.persistence.hibernate.impl;
 
-import com.diasystem.entity.Task;
-import com.diasystem.persistence.TaskPersistence;
+import com.swagata.entity.Task;
+import com.swagata.persistence.TaskPersistence;
+
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+
 import java.util.Date;
 import java.util.List;
 

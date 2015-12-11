@@ -1,12 +1,14 @@
-package com.diasystem.persistence.hibernate.impl;
+package com.swagata.persistence.hibernate.impl;
 
 
-import com.diasystem.persistence.UserPersistence;
 import org.springframework.stereotype.Repository;
-import com.diasystem.entity.User;
+
+import com.swagata.entity.User;
+import com.swagata.persistence.UserPersistence;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+
 import java.util.List;
 
 @Repository

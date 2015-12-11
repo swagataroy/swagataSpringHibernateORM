@@ -1,4 +1,4 @@
-package com.diasystem.persistence;
+package com.swagata.persistence;
 
 import java.util.List;
 

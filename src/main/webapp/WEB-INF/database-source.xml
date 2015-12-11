@@ -18,7 +18,7 @@
         <bean id="jpaDialect" class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
 
         <bean id="jpaVendorAdapter" class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
-            <property name="database" value="POSTGRESQL"/>
+            <property name="database" value="MYSQL"/>
             <property name="databasePlatform" value="${database.dialect}"/>
         </bean>
 

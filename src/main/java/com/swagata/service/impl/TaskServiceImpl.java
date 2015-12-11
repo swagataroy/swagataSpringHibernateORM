@@ -1,9 +1,10 @@
-package com.diasystem.service.impl;
+package com.swagata.service.impl;
 
 
-import com.diasystem.entity.Task;
-import com.diasystem.persistence.TaskPersistence;
-import com.diasystem.service.TaskService;
+import com.swagata.entity.Task;
+import com.swagata.persistence.TaskPersistence;
+import com.swagata.service.TaskService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

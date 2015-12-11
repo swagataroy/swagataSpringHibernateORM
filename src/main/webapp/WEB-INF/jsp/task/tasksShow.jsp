@@ -18,7 +18,7 @@
         | <a href="<c:url value="/j_spring_security_logout" />"> Logout</a></p>
 </c:if>
 
-<a  href="getUserList"><<< beak</a>
+<a  href="getUserList"><<< Back</a>
 <form name="form" action="getFilterTaskList">
     <table style="margin: auto" cellspacing="0" border="1" cellpadding="3" width="auto" bgcolor="#fff8dc">
 

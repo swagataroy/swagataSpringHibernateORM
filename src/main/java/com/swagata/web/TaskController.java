@@ -1,8 +1,9 @@
-package com.diasystem.web;
+package com.swagata.web;
 
-import com.diasystem.entity.Task;
-import com.diasystem.entity.User;
-import com.diasystem.service.TaskService;
+import com.swagata.entity.Task;
+import com.swagata.entity.User;
+import com.swagata.service.TaskService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;

@@ -1,4 +1,4 @@
-package com.diasystem.service;
+package com.swagata.service;
 
 
 import java.util.List;

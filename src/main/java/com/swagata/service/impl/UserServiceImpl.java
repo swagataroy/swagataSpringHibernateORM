@@ -1,9 +1,10 @@
-package com.diasystem.service.impl;
+package com.swagata.service.impl;
 
 
-import com.diasystem.entity.User;
-import com.diasystem.persistence.UserPersistence;
-import com.diasystem.service.UserService;
+import com.swagata.entity.User;
+import com.swagata.persistence.UserPersistence;
+import com.swagata.service.UserService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

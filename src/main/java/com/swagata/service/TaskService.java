@@ -1,8 +1,9 @@
-package com.diasystem.service;
+package com.swagata.service;
 
 
 
-import com.diasystem.entity.Task;
+import com.swagata.entity.Task;
+
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;

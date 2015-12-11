@@ -1,4 +1,4 @@
-package com.diasystem.entity;
+package com.swagata.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;

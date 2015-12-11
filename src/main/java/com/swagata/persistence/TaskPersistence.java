@@ -1,6 +1,6 @@
-package com.diasystem.persistence;
+package com.swagata.persistence;
 
-import com.diasystem.entity.Task;
+import com.swagata.entity.Task;
 
 import java.util.Date;
 import java.util.List;
