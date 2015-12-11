@@ -1,11 +1,11 @@
 # Swagata testing SpringHibernate
 
-you need to start the project:
-install apache-tomcat-8.0.21
-install  database POSTGRESQL
-and also Maven
+you need to start the project:  
+install apache-tomcat-8.0.21  
+install  database MYSQL  
+and also Maven  
 
-
+```mysql
 CREATE TABLE `users` (
   `userid` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(45) NOT NULL,
@@ -14,11 +14,12 @@ CREATE TABLE `users` (
   PRIMARY KEY (`userid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
-
+```
+```mysql
 insert into usersdb.users values(1, 'adele', 'hello', 'adle@gmail.com');
 insert into usersdb.users values(2, 'swagata', 'pandit', 'swagata@gmail.com');
 insert into usersdb.users values(3, 'rohan', 'pandit', 'rohan@gmail.com');
-
+```
 
 http://localhost:8080/swagataSpringHibernateORM/getUserList
 
