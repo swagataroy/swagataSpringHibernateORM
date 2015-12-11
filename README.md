@@ -23,7 +23,7 @@ insert into usersdb.users values(3, 'rohan', 'pandit', 'rohan@gmail.com');
 
 http://localhost:8080/swagataSpringHibernateORM/getUserList
 
-
+```mysql
 CREATE TABLE usersdb.tasks (
   `taskId` int(11) NOT NULL AUTO_INCREMENT,
   `taskName` varchar(45) NOT NULL,
