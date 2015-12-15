@@ -18,6 +18,7 @@ public class TaskServiceImpl implements TaskService<Task> {
     @Autowired
     private TaskPersistence tp;
 
+    @Transactional(readOnly = true)
     @Override
     public List<Task> getTaskList(Long userId) {
         return tp.findTasks(userId);
@@ -28,6 +29,7 @@ public class TaskServiceImpl implements TaskService<Task> {
         return tp.findFilterTasks(userId, firstDate, secondDate);
     }
 
+    @Transactional(readOnly = true)
     @Override
     public Task getTaskById(Long taskId) {
 

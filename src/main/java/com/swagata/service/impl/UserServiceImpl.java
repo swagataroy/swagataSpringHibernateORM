@@ -18,11 +18,13 @@ public class UserServiceImpl implements UserService<User> {
     @Autowired
     private UserPersistence up;
 
+    @Transactional(readOnly = true)
     @Override
     public List<User> getUserList() {
         return up.findUsers();
     }
 
+    @Transactional(readOnly = true)
     @Override
     public User getUserById(Long userId) {
 
