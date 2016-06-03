@@ -1,9 +1,11 @@
 package com.swagata.entity;
 
 import javax.persistence.*;
+
 import java.io.Serializable;
 import java.util.Date;
 
+//Testing commit
 @Entity
 @Table(name = "tasks")
 public class Task implements Serializable {
